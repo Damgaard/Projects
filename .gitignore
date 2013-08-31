@@ -1,0 +1,9 @@
+bin/
+obj/
+*.user
+*.userprefs
+*.suo
+*.pidb
+*.mdf
+*.psess
+*.vsp
