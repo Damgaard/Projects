@@ -22,8 +22,9 @@ Numbers
 **Find PI to the Nth Digit** - Enter a number and have the program generate PI
 up to that many decimal places. Keep a limit to how far the program will go.
 
-**Fibonacci Sequence** - Enter a number and have the program generate the
-Fibonacci sequence to that number or to the Nth number.
+[**Fibonacci Sequence**](https://github.com/Damgaard/Projects/blob/master/01Numbers/02Fibonacci%20Sequence/Fibonacci%20Sequence/Program.cs)
+- Enter a number and have the program generate the Fibonacci sequence to that
+number or to the Nth number.
 
 **Prime Factorization** - Have the user enter a number and find all Prime
 Factors (if there are any) and display them.
@@ -39,9 +40,10 @@ by the user.
 mortgage over given Nth terms at a given interest rate. Also figure out how
 long it will take the user to pay back the loan.
 
-**Change Return Program** - The user enters a cost and then the amount of money
-given. The program will figure out the change and the number of quarters,
-dimes, nickels, pennies needed for the change.
+[**Change Return Program**](https://github.com/Damgaard/Projects/blob/master/01Numbers/07ChangeReturn/ChangeReturn/Program.cs)
+- The user enters a cost and then the amount of money given. The program will
+  figure out the change and the number of quarters, dimes, nickels, pennies
+  needed for the change.
 
 **Binary to Decimal and Back Converter** - Develop a converter to convert a
 decimal number to binary or a binary number to its decimal equivalent.
@@ -95,7 +97,8 @@ positive integers (like zero, negative integers, and floating-point numbers).*
 Classic Algorithms
 -----------------
 
-**Collatz Conjecture** - Start with a number *n > 1*. Find the number of steps
+[**Collatz Conjecture**](https://github.com/Damgaard/Projects/blob/master/02Algorithms/01CollatzConjecture/CollatzConjecture/Program.cs)
+- Start with a number *n > 1*. Find the number of steps
 it takes to reach one using the following process: If *n* is even, divide it by
 2. If *n* is odd, multiply it by 3 and add 1.
 
@@ -106,7 +109,8 @@ sort.
 problem is a problem of computational geometry: given *n* points in metric
 space, find a pair of points with the smallest distance between them.
 
-**Sieve of Eratosthenes** - The sieve of Eratosthenes is one of the most
+[**Sieve of Eratosthenes**](https://github.com/Damgaard/Projects/blob/master/02Algorithms/04SieveOfEratosthenes/SieveOfEratosthenes/Program.cs)
+- The sieve of Eratosthenes is one of the most
 efficient ways to find all of the smaller primes (below 10 million or so).
 
 **Inverted index** - An [Inverted
@@ -138,23 +142,26 @@ through a graph using its edges.
 Text
 ---------
 
-**Reverse a String** - Enter a string and the program will reverse it and print
-it out.
+[**Reverse a String**](https://github.com/Damgaard/Projects/blob/master/04Text/01StringReverse/StringReverse/Program.cs)
+ - Enter a string and the program will reverse it and print it out.
 
-**Pig Latin** - Pig Latin is a game of alterations played on the English
+[**Pig Latin**](https://github.com/Damgaard/Projects/blob/master/04Text/02PigLatin/PigLatin/Program.cs)
+- Pig Latin is a game of alterations played on the English
 language game. To create the Pig Latin form of an English word the initial
 consonant sound is transposed to the end of the word and an ay is affixed (Ex.:
 "banana" would yield anana-bay). Read Wikipedia for more information on rules.
 
-**Count Vowels** - Enter a string and the program counts the number of vowels
-in the text. For added complexity have it report a sum of each vowel found.
+[**Count Vowels**](https://github.com/Damgaard/Projects/blob/master/04Text/03CountVowels/CountVowels/Program.cs)
+- Enter a string and the program counts the number of vowels in the text. For
+  added complexity have it report a sum of each vowel found.
 
-**Check if Palindrome** - Checks if the string entered by the user is a
-palindrome. That is that it reads the same forwards as backwards like “racecar”
+[**Check if Palindrome**](https://github.com/Damgaard/Projects/blob/master/04Text/04Palindrome/Palindrome/Program.cs)
+- Checks if the string entered by the user is a palindrome. That is that it
+  reads the same forwards as backwards like “racecar”
 
-**Count Words in a String** - Counts the number of individual words in a
-string. For added complexity read these strings in from a text file and
-generate a summary.
+[**Count Words in a String**](https://github.com/Damgaard/Projects/blob/master/04Text/05CountWords/CountWords/Program.cs)
+- Counts the number of individual words in a string. For added complexity read
+  these strings in from a text file and generate a summary.
 
 **Text Editor** - Notepad style application that can open, edit, and save text
 documents. *Optional: Add syntax highlighting and other features.*
@@ -179,7 +186,8 @@ Google App Engine or Heroku or any other PaaS (if possible, of course).*
 **Fortune Teller (Horoscope)** - A program that checks your horoscope on
 various astrology sites and puts them together for you each day.
 
-**Vigenere / Vernam / Ceasar Ciphers** - Functions for encrypting and
+[**Vigenere / Vernam / Ceasar Ciphers**](https://github.com/Damgaard/Projects/blob/master/12Security/01CaesarCipher/CaesarCipher/Program.cs)
+- Functions for encrypting and
 decrypting data messages. Then send them to a friend.
 
 **Random Gift Suggestions** - Enter various gifts for certain people when you
@@ -434,10 +442,11 @@ simultaneously.*
 Security
 -------------
 
-**Caesar cipher** - Implement a Caesar cipher, both encoding and decoding. The
-key is an integer from 1 to 25. This cipher rotates the letters of the alphabet
-(A to Z). The encoding replaces each letter with the 1st to 25th next letter in
-the alphabet (wrapping Z to A). So key 2 encrypts "HI" to "JK", but key 20
-encrypts "HI" to "BC". This simple "monoalphabetic substitution cipher"
-provides almost no security, because an attacker who has the encoded message
-can either use frequency analysis to guess the key, or just try all 25 keys.
+[**Caesar cipher**](https://github.com/Damgaard/Projects/blob/master/12Security/01CaesarCipher/CaesarCipher/Program.cs)
+- Implement a Caesar cipher, both encoding and decoding. The key is an integer
+  from 1 to 25. This cipher rotates the letters of the alphabet (A to Z). The
+  encoding replaces each letter with the 1st to 25th next letter in the
+  alphabet (wrapping Z to A). So key 2 encrypts "HI" to "JK", but key 20
+  encrypts "HI" to "BC". This simple "monoalphabetic substitution cipher"
+  provides almost no security, because an attacker who has the encoded message
+  can either use frequency analysis to guess the key, or just try all 25 keys.
