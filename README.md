@@ -1,15 +1,15 @@
-100 Projects
-============
+Projects
+=========
 
-My implementation of the [100 Projects](
-(https://github.com/thekarangoel/Projects) project in C#.
+Trying to complete over 100 projects in various categories in C#. Inspiration
+from [Karan Goel's Projects](https://github.com/thekarangoel/Projects).
 
 Structure
 ---------
 
 The finished projects are placed in folders with the name of that project
 group. Both the projects and the folders are prefixed with the number of their
-placement i the project list, to maintain consistency between this list and the
+placement in the project list, to maintain consistency between this list and the
 alphabetical sorting of folders.
 
 
