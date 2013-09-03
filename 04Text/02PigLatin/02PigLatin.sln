@@ -1,0 +1,20 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual C# Express 2010
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PigLatin", "PigLatin\PigLatin.csproj", "{00583F7E-7D59-43BC-8262-1D8201E7631A}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|x86 = Debug|x86
+		Release|x86 = Release|x86
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{00583F7E-7D59-43BC-8262-1D8201E7631A}.Debug|x86.ActiveCfg = Debug|x86
+		{00583F7E-7D59-43BC-8262-1D8201E7631A}.Debug|x86.Build.0 = Debug|x86
+		{00583F7E-7D59-43BC-8262-1D8201E7631A}.Release|x86.ActiveCfg = Release|x86
+		{00583F7E-7D59-43BC-8262-1D8201E7631A}.Release|x86.Build.0 = Release|x86
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
